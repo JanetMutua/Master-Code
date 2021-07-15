@@ -6,17 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- styling for links (internal) -->
     <style>
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: burlywood;
+        }
         a:link {
             color: royalblue;
             background-color: transparent;
             text-decoration: none;}
         a:hover {
             color:hotpink;
+
             border-color: transparent;
             text-decoration: underline;
         }
         a:visited {
-            color: goldenrod;
+            color: black;
             background-color: transparent;
             text-decoration: none;
         }
@@ -25,42 +33,71 @@
             background-color: transparent;
             text-decoration: none;
         }
+        li{
+            float: left;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+        }
+        li a:hover {
+            background-color: coral;
+        }
     </style>
     <title>Workspace</title>
 </head>
 <body>
-    <h1 id="top">My Blog</h1>
-    <h1>Other pages</h1>
-
-    <!-- button as a link -->
-
+    <h1><span style="padding: 16px; background-color: cornsilk; color: darkblue; width: 100%; text-align: center;">NASHMA</span></h1>
+    <!-- titles in links -->
+    <div class="menu">
+        <ul>
+            <li><a href="lists.html" target="_blank" title="Products page">Products</a></li>
+            <li><a href="about.html" target="_blank" title="about page">About page</a></li>
+            <li><a href="form.html" target="_blank">Newsletters</a></li>
+            <li><a href="links.html" target="_blank" title="Links page">Useful Links</a></li>
+            <li><a href="mapping.html" target="_blank" title="Images page">Images</a></li>
+            <li><a href="javascriptapplic.html" target="_blank" title="Quick Links">Quick Links</a></li>
+        </ul>
+    </div>
+    <br>
+    <br>
     <button onclick="document.location='form.html'">Newsletters</button>
     <br>
     <br>
-
-    <!-- titles in links -->
-
-    <a href="./lists.html" target="_blank" title="Products page">Products</a>
-    <a href="./about.html" target="_blank" title="about page">About page</a>
-    <a href="./form.html" target="_blank">Newsletters</a>
-    <a href="./links.html" target="_blank" title="Links page">Useful Links</a>
-    <h2>Beautiful kettle picture</h2>
-    <img src="https://images.pexels.com/photos/5913195/pexels-photo-5913195.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="woman smiling">
-    <a href="https://www.jumia.co.ke/cups-mugs-saucers/"target="_blank">
-    <img src="./images/buynow.jpeg" alt="buy now">
-    </a>
+    <a href="#ch2">Go to Chapter 2</a>
+    <a href="about.html#ch3">Check Our Testionials</a>
+    <div class="blog">
+        <h2 id="blog">My Blog</h2>
+        <h2>Beautiful kettle picture</h2>
+        <img src="https://images.pexels.com/photos/5913195/pexels-photo-5913195.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="woman smiling">
+        <a href="https://www.jumia.co.ke/cups-mugs-saucers/"target="_blank">
+        <img src="./images/buynow.jpeg" alt="buy now">
+        </a>
+        <br>
+        <br>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quod tenetur fuga rem cumque debitis temporibus hic accusantium nulla adipisci, laborum sit eveniet rerum? Molestiae perspiciatis dolores sint in quia.</p>
+    </div>
+    <div>
+        <h3>Our Products</h3>
+        <img src="https://images.pexels.com/photos/7981891/pexels-photo-7981891.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="products pictures">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas veritatis velit suscipit eius, nulla esse tempora tempore, sint aliquam maiores ipsa saepe voluptatum autem eveniet. Dolores dolorum iure esse perspiciatis facilis. Molestias aspernatur expedita, dignissimos nobis quae in a architecto quasi fuga totam, voluptatem vel? Omnis dolor magnam possimus officiis sunt debitis! Officiis esse quo nihil cum mollitia iusto consequuntur assumenda nulla quod et beatae ex perferendis, error fuga sint, laudantium deleniti ipsam vel sunt adipisci aspernatur blanditiis nam quidem ad. Illum repudiandae, molestias possimus numquam dicta velit exercitationem assumenda autem, accusantium alias in nihil praesentium dolorum reiciendis. Aperiam delectus, asperiores labore perspiciatis expedita repellat deleniti consequatur quasi veritatis velit minus corporis odit ad consequuntur? Mollitia sed tempore numquam aspernatur quibusdam expedita iure ab omnis ducimus perspiciatis ipsa beatae rem, consectetur perferendis, deserunt corporis. Modi ducimus ipsum impedit esse aliquam iusto suscipit ab est ipsam nam! Quasi deserunt amet optio ipsam voluptates pariatur dolorum tenetur dolore animi, tempore sint repudiandae minima blanditiis quod quidem doloribus ad. Praesentium aliquam, unde distinctio, reiciendis assumenda ad provident labore, officiis a culpa deleniti recusandae repudiandae rem tempora est. Distinctio quibusdam vero dignissimos minus soluta praesentium et libero, magnam tempora repudiandae doloribus incidunt nobis molestias, vitae quaerat eligendi labore iste iusto inventore necessitatibus enim. Tenetur mollitia ex ratione! Neque perspiciatis nisi quisquam quibusdam. Repudiandae, suscipit. Porro vitae ex harum dignissimos error repellat id dolor doloribus expedita earum cupiditate eius, recusandae reiciendis aliquid asperiores quas provident aut nam eaque voluptate ullam suscipit deserunt nemo corporis. Molestias nihil amet sapiente labore dignissimos, nobis cum hic, fugiat libero tenetur enim! Voluptas dolore, vero quidem earum hic error vel maiores culpa explicabo labore necessitatibus dicta amet reiciendis, non perspiciatis odit quod aspernatur totam nulla? Minus reiciendis voluptatem dolorum amet tenetur illum magnam saepe et in consequuntur repellendus esse cumque iure nulla assumenda fugit cupiditate unde libero, porro provident eius enim ducimus aliquid necessitatibus. Reprehenderit ad, iusto minus voluptate itaque ullam voluptatem totam eveniet nisi? Eveniet suscipit consectetur animi voluptatum cumque, earum corporis dolore voluptas nulla harum, aut ex possimus enim sequi quo, illo qui rerum impedit veritatis aliquam dignissimos laudantium vitae temporibus? Corrupti, veniam   
+    </div>
+        <br>
+        <br>
+    <div>   
+        <h2 id="ch2">Chapter 2</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae unde, nisi ea doloribus animi amet soluta iste officia fugit beatae fugiat quia? Voluptate laudantium at error cum? Totam aliquam reiciendis veniam! Iste quisquam eos ab dolore, laborum fugit reiciendis placeat quis dolorem excepturi possimus quas facilis assumenda! Ea optio et blanditiis. Iste voluptates sint dolorum sapiente debitis sequi culpa, vitae enim error. Quod voluptate nobis ipsum inventore minima natus eveniet consectetur illo veritatis iste obcaecati error, numquam maiores asperiores debitis facilis nesciunt autem quos totam pariatur at aut illum? Maxime ad asperiores quis aliquid quaerat quos distinctio nihil modi culpa. Rerum sunt sint est iusto non alias, asperiores facere! Exercitationem iste obcaecati eveniet illo natus minima. Numquam magnam minima natus, porro laudantium maxime error, corporis voluptatum est, vero veniam distinctio ullam sint at? Delectus optio cupiditate ducimus veritatis nulla! A, ipsam dignissimos ducimus officiis dolores cumque tempora quae fugit qui debitis aliquid beatae aliquam, tenetur aperiam, ullam vel voluptate quia perspiciatis nobis dolorem! Aliquam delectus atque nostrum facilis deleniti sequi voluptatem distinctio sunt, iste beatae expedita corporis, earum ea modi architecto animi cupiditate. Est autem iusto impedit? Voluptatibus, atque explicabo? Suscipit quaerat dicta numquam. Iste officiis laboriosam accusantium neque ipsum quibusdam excepturi facilis harum omnis nostrum. Unde architecto porro accusamus facere nesciunt doloremque ipsam sequi explicabo excepturi consequatur ipsa tenetur quo a animi maxime quia laudantium, eaque dicta, voluptates distinctio? Optio accusantium deserunt nostrum veritatis ut molestiae voluptatem debitis eligendi at? Sit, iure explicabo vel doloribus sequi quos beatae deleniti.</p>
+    </div>
     <br>
     <br>
     <br>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quod tenetur fuga rem cumque debitis temporibus hic accusantium nulla adipisci, laborum sit eveniet rerum? Molestiae perspiciatis dolores sint in quia.</p>
-    <h3>Our Products</h3>
-    <img src="https://images.pexels.com/photos/7981891/pexels-photo-7981891.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="products pictures">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas veritatis velit suscipit eius, nulla esse tempora tempore, sint aliquam maiores ipsa saepe voluptatum autem eveniet. Dolores dolorum iure esse perspiciatis facilis. Molestias aspernatur expedita, dignissimos nobis quae in a architecto quasi fuga totam, voluptatem vel? Omnis dolor magnam possimus officiis sunt debitis! Officiis esse quo nihil cum mollitia iusto consequuntur assumenda nulla quod et beatae ex perferendis, error fuga sint, laudantium deleniti ipsam vel sunt adipisci aspernatur blanditiis nam quidem ad. Illum repudiandae, molestias possimus numquam dicta velit exercitationem assumenda autem, accusantium alias in nihil praesentium dolorum reiciendis. Aperiam delectus, asperiores labore perspiciatis expedita repellat deleniti consequatur quasi veritatis velit minus corporis odit ad consequuntur? Mollitia sed tempore numquam aspernatur quibusdam expedita iure ab omnis ducimus perspiciatis ipsa beatae rem, consectetur perferendis, deserunt corporis. Modi ducimus ipsum impedit esse aliquam iusto suscipit ab est ipsam nam! Quasi deserunt amet optio ipsam voluptates pariatur dolorum tenetur dolore animi, tempore sint repudiandae minima blanditiis quod quidem doloribus ad. Praesentium aliquam, unde distinctio, reiciendis assumenda ad provident labore, officiis a culpa deleniti recusandae repudiandae rem tempora est. Distinctio quibusdam vero dignissimos minus soluta praesentium et libero, magnam tempora repudiandae doloribus incidunt nobis molestias, vitae quaerat eligendi labore iste iusto inventore necessitatibus enim. Tenetur mollitia ex ratione! Neque perspiciatis nisi quisquam quibusdam. Repudiandae, suscipit. Porro vitae ex harum dignissimos error repellat id dolor doloribus expedita earum cupiditate eius, recusandae reiciendis aliquid asperiores quas provident aut nam eaque voluptate ullam suscipit deserunt nemo corporis. Molestias nihil amet sapiente labore dignissimos, nobis cum hic, fugiat libero tenetur enim! Voluptas dolore, vero quidem earum hic error vel maiores culpa explicabo labore necessitatibus dicta amet reiciendis, non perspiciatis odit quod aspernatur totam nulla? Minus reiciendis voluptatem dolorum amet tenetur illum magnam saepe et in consequuntur repellendus esse cumque iure nulla assumenda fugit cupiditate unde libero, porro provident eius enim ducimus aliquid necessitatibus. Reprehenderit ad, iusto minus voluptate itaque ullam voluptatem totam eveniet nisi? Eveniet suscipit consectetur animi voluptatum cumque, earum corporis dolore voluptas nulla harum, aut ex possimus enim sequi quo, illo qui rerum impedit veritatis aliquam dignissimos laudantium vitae temporibus? Corrupti, veniam dignissimos. Corrupti labore dicta quam, beatae voluptatum temporibus dolor at culpa cumque nobis, fugiat vel est sunt doloribus natus harum non! Perferendis, perspiciatis aut. Veritatis unde laborum temporibus, ratione doloremque possimus laudantium consequatur cum officia obcaecati amet, laboriosam eligendi nulla, dolorum minus dignissimos? Dolorem temporibus sunt perspiciatis nam, eveniet corrupti molestias? Quae aperiam doloremque ab corrupti, quasi cumque vel deleniti velit iusto consequuntur commodi, quibusdam itaque. Quo, facere? Porro recusandae eveniet, inventore id fuga itaque vitae quam. Nostrum repellendus, voluptates id deserunt aut voluptate quam quod earum fuga qui magnam! Optio quibusdam veritatis, ipsam dolores dicta praesentium quam maxime ut unde. Omnis unde numquam odit praesentium molestiae asperiores consequatur exercitationem fugiat pariatur provident expedita, delectus suscipit labore possimus repudiandae et laboriosam. Amet repellendus nam odio quaerat repudiandae ad rem nobis fugit eaque eius? Voluptatibus impedit accusamus minus nesciunt commodi! Omnis ipsa est voluptas quas natus.</p>
-    <br>
-    <br>
-    <br>
-    <a href="#top">back to top</a>
-    <p><em>copyright</em> &copy;</p>
-    <p><strong>Jan &amp; sons ltd &reg;</strong></p>
+    <div>
+        <a href="#blog">back to top</a>
+        <p><em>copyright</em> &copy;</p>
+        <p><strong>Jan &amp; sons ltd &reg;</strong></p>
+    </div>
 </body>
 </html>
