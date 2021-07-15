@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick links</title>
+    <style>
+        .main {
+            padding: 6px;
+            background-color: darkkhaki;
+            color: black;
+            display: block;
+        }
+        .stream {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: medium;
+            border: 2px solid grey;
+        }
+    </style>
+    <script>
+        function myfunc(){
+            var y = document.getElementsByClassName("main");
+            for (var x = 0; x< y.length; x++){
+                y[x].style.display = "none";
+            }
+        }
+    
+        function thisfunc(){
+            document.getElementById("first").innerHTML = "Have an awesome week!";
+        }
+    </script>
+</head>
+<body>
+    <div class="stream">
+        <h1>Hello World</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vel provident impedit vitae porro tempore eius magni iste facilis voluptate qui, repudiandae iusto perferendis eos non, pariatur aperiam, officia similique.</p>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="main">
+        <h2>Our products</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et adipisci vel saepe, omnis voluptate minus delectus odit eius quis quam modi fugit? Ducimus accusamus et doloremque distinctio quod consequuntur alias.</p>
+        <button onclick="myfunc()">Hide element</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="first" class="stream">
+        <h3>Hello world!</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea harum id at possimus sapiente itaque? Quaerat sapiente rerum quisquam dolores alias ex reiciendis amet. Natus quod laudantium eos error?</p>
+        <button onclick="thisfunc()">Click here</button>
+    </div>
+    <br>
+    <br>
+</body>
+</html>
