@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapping</title>
+</head>
+<body>
+    <!-- floating images -->
+    <p>
+    <img src="./images/buynow.jpeg" alt="Buy now" style="float:right;width: 60px;">Its easier now to purchase your order at our selected stores from anywhere around the world</p>
+    <br>
+
+    <!-- mapping images -->
+    <img src="/images/workplace.jpg" alt="productivity" usemap="#workflow">
+    <br>
+    <map name="workflow">
+        <area shape="rect" coords="34,44,270,350" href="computer.htm" alt="computer">
+        <area shape="circle" coords="337, 300, 44" href="coffe.html" alt="coffee">
+        <area shape="rect" coords="290, 172, 333, 250" href="phone.html" alt="phone">
+    </map>
+    <br>
+
+
+    <!-- Image map and Javascript -->
+    <p>Click on the coffee cup to execute a Javascript function</p>
+    <img src="/images/workplace.jpg" alt="productivity" usemap="#work">
+    <map name="work">
+        <area shape="circle" coords="337, 300, 44" href="coffee.html" alt="coffee" onclick="myFunction()"> 
+    </map>
+
+    <script>
+    function myFunction() {
+        alert("You have clicked the coffee cup!");
+    }
+    </script>
+    <br>
+    <br>
+    <img src="/images/leafwallart.jpeg" alt="leaf wall art" usemap="#wallart">
+    <map name="wallart">
+        <area shape="default" coords="" href="https://www.britannica.com/science/leaf-plant-anatomy" alt="leaf" onclick="myfunc()">
+    </map>
+    <script>
+        function myfunc(){
+            alert("You are leaving this site")
+        }
+    </script>
+    
+
+
+
+    <!-- picture element -->
+   <picture>
+       <source media="(min-width:100px )" srcset="./images/leafwallart.jpeg">
+       <source media="(min-width:500px )" srcset="./images/workplace.jpg">
+       <img src="/images/buynow.jpeg" alt="buynow">
+
+   </picture>
+</body>
+</html>
