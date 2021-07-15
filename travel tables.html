@@ -4,36 +4,116 @@
   <meta charset="utf-8">
   <meta  name="description"content="List of top places to visit">
   <title>Travel tables</title>
+  <style>
+    table ,th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      
+    }
+    th {
+      text-align: left;
+    }
+    th,td {
+      padding: 15px;
+    }
+    table {
+      border-spacing: 5px;
+    }
+
+    /* special style for one table */
+
+    #details {
+      width: 100%;
+      background-color: burlywood;
+    }
+    #details tr:nth-child(even) {
+      background-color: #eee;
+    }
+    #details th {
+      background-color: #000;
+      color: #fff;
+    }
+  </style>
   </head>
-<body style="background-color:palegreen;">
-  <section>
-    <table>
-      <thead>
-        <caption><h3>Comprehensive travel list</h3></caption>
-        <tr>
-          <th>Destination</th>
-          <th>Price</th>
-          <th>Rating</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Mauritius</td>
-          <td>500,000Ksh</td>
-          <td>7/10</td>
-        </tr>
-        <tr>
-          <td>Zanzibar</td>
-          <td>700,000Ksh</td>
-          <td>9/10</td>
-        </tr>
-        <tr>
-          <td>Johannesburg</td>
-          <td>800,000Ksh</td>
-          <td>6/10</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
+<body>
+  <table style="width: 100%;">
+    <caption>Skillsets</caption>
+    <tr>
+      <th>Name</th>
+      <th>Skill</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Janet</td>
+      <td>Python</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>Peninah</td>
+      <td>Java</td>
+      <td>25</td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <br>
+
+  <table id="details">
+    <caption>Skillsets</caption>
+    <tr>
+      <th>Name</th>
+      <th>Skill</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jane</td>
+      <td>Kotlin</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>Peter</td>
+      <td>C++</td>
+      <td>25</td>
+    </tr>
+
+
+    <!-- column spans and row spans -->
+  </table>
+  <br>
+  <br>
+  <br>
+
+  <table style="width: 100%;">
+    <!-- colspan -->
+    <caption>Colspan</caption>
+    <tr>
+      <th>Name</th>
+      <th colspan="2">Skillset</th>
+    </tr>
+    <tr>
+      <td>Janet</td>
+      <td>Python</td>
+      <td>Java</td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <br>
+
+  <table style="width: 100%;">
+    <caption>Rowspan</caption>
+    <tr>
+      <th>Name</th>
+      <td>Janet</td>
+    </tr>
+    <tr>
+      <th rowspan="2">Skills</th>
+      <td>Kotlin</td>
+    </tr>
+    <tr>
+      <td>C#</td>
+    </tr>
+  </table>
+
 </body>
 </html>
